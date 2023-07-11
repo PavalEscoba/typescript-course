@@ -18,3 +18,7 @@ const grown: Dog = {
     age: 2,
     voice: 'woof-woof-woof',
 };
+
+function doSmth(smth: string | number) {
+    console.log('smth: ', smth);
+}

@@ -1,11 +1,11 @@
 "use strict";
-var puppy = {
+const puppy = {
     breed: 'hound',
     name: 'Jack',
     age: 1,
     voice: 'woof',
 };
-var grown = {
+const grown = {
     breed: 'sheperd',
     name: 'Mara',
     age: 2,
