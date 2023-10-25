@@ -1,0 +1,10 @@
+import { formatDate, getRandomNumber as randomiseNumber } from './utils.js';
+import thingy, { userHelper } from './User.js';
+const today = new Date();
+const formattedDate = formatDate(today);
+console.log(formattedDate);
+const randomNum = randomiseNumber(1, 100);
+console.log(randomNum);
+const roboUser = new thingy('RoboUser77', 'robouser@gg.gg', 'red');
+roboUser.logOut();
+userHelper();
